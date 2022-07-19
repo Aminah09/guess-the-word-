@@ -1,11 +1,11 @@
 
 # GUESS THE WORD
 
-## ** Description **
+## Description 
 
 In this game we choose a word in our mind and the program output will ask questions regarding that word and finally guess the word which we have chosen.
 
-## ** Beginning the Game **
+## Beginning the Game
 
 The program reads command line arguments as input and if no arguments are passed ``` python Guess-The-Word.py ``` then it will ask How many letters are there in your word? :
 Type the number of letters in a word you have chosen.
