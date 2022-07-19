@@ -32,24 +32,29 @@ Which group is the letter 5 of your guess (count starts from 1): 1
 
 Which group is the letter 6 of your guess (count starts from 1): 3
 
-g | h | i | j | k | l
+g |  h |  i |  j |  k |  l
 
-m | n | o | p | q | r
+m |  n |  o |  p |  q |  r
 
-g | h | i | j | k | l
+g |  h |  i |  j |  k |  l
 
-a | b | c | d | e | f
+a |  b |  c |  d |  e |  f
 
-a | b | c | d | e | f
+a |  b |  c |  d |  e |  f
 
-m | n | o | p | q | r
+m |  n |  o |  p |  q |  r
 
 
 Which column is the letter 1 of your guess (count starts from 1): 1
+
 Which column is the letter 2 of your guess (count starts from 1): 3
+
 Which column is the letter 3 of your guess (count starts from 1): 6
+
 Which column is the letter 4 of your guess (count starts from 1): 4
+
 Which column is the letter 5 of your guess (count starts from 1): 5
+
 Which column is the letter 6 of your guess (count starts from 1): 2
 
 The word you guessed is golden !
