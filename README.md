@@ -1,62 +1,36 @@
+#   WORD GUESS GAME
 
-# GUESS THE WORD
+## Description
+This is a simple Python program that allows you to play a Word Guess Game. The game helps you guess a word by providing hints about each letter in the word.
 
-## Description 
+## How to Play
 
-In this game we choose a word in our mind and the program output will ask questions regarding that word and finally guess the word which we have chosen.
+1. Run the program.
+2. You will be asked to enter the number of letters in the word you want to guess.
+3. The program will divide the alphabet into sets of lists, each equal to the length of the word.
+4. You will be prompted to provide the group number for each letter in your guess.
+5. The program will display the available letters for each group.
+6. Enter the column number for each letter in your guess.
+7. The program will reveal the word you guessed based on your inputs.
 
-## Beginning the Game
+## Example
 
-The program reads command line arguments as input and if no arguments are passed ``` python Guess-The-Word.py ``` then it will ask How many letters are there in your word? :
-Type the number of letters in a word you have chosen.
-After that Which group is the letters of your guess where the (count starts from 1) will be asked. After that column will appear
-and ask Which column is the letters of your guess (count starts from 1):
+Suppose you want to guess a 5-letter word. Here's how the game would proceed:
 
-After that ``` The word you guessed is ______  !``` will appear.
+1. Enter the number of letters in your word: 5
+2. You will see the alphabet divided into sets (groups) equal to the word length.
+3. For each letter, enter the group number (count starts from 1) where the letter is present.
+4. The program will display the available letters for each group.
+5. For each letter, enter the column number (count starts from 1) to identify the letter.
 
-## Preview
+The game will then reveal the word you guessed based on your inputs.
 
-How many letters are there in your word? : 6
+## How to Run
 
-[['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'o', 'p', 'q', 'r'], ['s', 't', 'u', 'v', 'w', 'x'], ['y', 'z']]
+1. Make sure you have Python installed on your system.
+2. Download the 'word_guess_game.py' file.
+3. Open a terminal or command prompt and navigate to the directory containing the 'word_guess_game.py' file.
+4. Run the program using the command: `python word_guess_game.py`.
 
-Which group is the letter 1 of your guess (count starts from 1): 2
+Enjoy playing the Word Guess Game and have fun trying to guess the word!
 
-Which group is the letter 2 of your guess (count starts from 1): 3
-
-Which group is the letter 3 of your guess (count starts from 1): 2
-
-Which group is the letter 4 of your guess (count starts from 1): 1
-
-Which group is the letter 5 of your guess (count starts from 1): 1
-
-Which group is the letter 6 of your guess (count starts from 1): 3
-
-g |  h |  i |  j |  k |  l
-
-m |  n |  o |  p |  q |  r
-
-g |  h |  i |  j |  k |  l
-
-a |  b |  c |  d |  e |  f
-
-a |  b |  c |  d |  e |  f
-
-m |  n |  o |  p |  q |  r
-
-
-Which column is the letter 1 of your guess (count starts from 1): 1
-
-Which column is the letter 2 of your guess (count starts from 1): 3
-
-Which column is the letter 3 of your guess (count starts from 1): 6
-
-Which column is the letter 4 of your guess (count starts from 1): 4
-
-Which column is the letter 5 of your guess (count starts from 1): 5
-
-Which column is the letter 6 of your guess (count starts from 1): 2
-
-The word you guessed is golden !
-
-## THANK YOU 
