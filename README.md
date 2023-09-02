@@ -13,7 +13,7 @@ This is a simple Python program that allows you to play a Word Guess Game. The g
 6. Enter the column number for each letter in your guess.
 7. The program will reveal the word you guessed based on your inputs.
 
-## Demonstration
+## Demonst
 
 Suppose you want to guess a 5-letter word. Here's how the game would proceed:
 
